@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C54735FA1A162EAC004D7605 /* ListItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54735F91A162EAC004D7605 /* ListItemsViewController.swift */; };
+		C54736021A16323A004D7605 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54736011A16323A004D7605 /* CheckBox.swift */; };
+		C54736041A1633BF004D7605 /* CheckBoxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54736031A1633BF004D7605 /* CheckBoxCell.swift */; };
+		C54736081A1635E8004D7605 /* CheckBoxLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54736071A1635E8004D7605 /* CheckBoxLayer.swift */; };
+		C56CB30D1A1605550009473C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56CB30C1A1605550009473C /* AppDelegate.swift */; };
+		C56CB30F1A1605550009473C /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56CB30E1A1605550009473C /* ListViewController.swift */; };
+		C56CB3141A1605550009473C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C56CB3131A1605550009473C /* Images.xcassets */; };
+		C56CB3171A1605550009473C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C56CB3151A1605550009473C /* LaunchScreen.xib */; };
+		C56CB3231A1605550009473C /* ListerSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56CB3221A1605550009473C /* ListerSwiftTests.swift */; };
+		C56CB3301A1609430009473C /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56CB32E1A1609430009473C /* List.swift */; };
+		C56CB3311A1609430009473C /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56CB32F1A1609430009473C /* ListItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C56CB31D1A1605550009473C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C56CB2FF1A1605550009473C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C56CB3061A1605550009473C;
+			remoteInfo = ListerSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C54735F91A162EAC004D7605 /* ListItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItemsViewController.swift; sourceTree = "<group>"; };
+		C54736011A16323A004D7605 /* CheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		C54736031A1633BF004D7605 /* CheckBoxCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBoxCell.swift; sourceTree = "<group>"; };
+		C54736071A1635E8004D7605 /* CheckBoxLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBoxLayer.swift; sourceTree = "<group>"; };
+		C56CB3071A1605550009473C /* ListerSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListerSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C56CB30B1A1605550009473C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C56CB30C1A1605550009473C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C56CB30E1A1605550009473C /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		C56CB3131A1605550009473C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C56CB3161A1605550009473C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C56CB31C1A1605550009473C /* ListerSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListerSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C56CB3211A1605550009473C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C56CB3221A1605550009473C /* ListerSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListerSwiftTests.swift; sourceTree = "<group>"; };
+		C56CB32E1A1609430009473C /* List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		C56CB32F1A1609430009473C /* ListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C56CB3041A1605550009473C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56CB3191A1605550009473C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C56CB2FE1A1605550009473C = {
+			isa = PBXGroup;
+			children = (
+				C56CB3091A1605550009473C /* ListerSwift */,
+				C56CB31F1A1605550009473C /* ListerSwiftTests */,
+				C56CB3081A1605550009473C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C56CB3081A1605550009473C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C56CB3071A1605550009473C /* ListerSwift.app */,
+				C56CB31C1A1605550009473C /* ListerSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C56CB3091A1605550009473C /* ListerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				C56CB30C1A1605550009473C /* AppDelegate.swift */,
+				C56CB32E1A1609430009473C /* List.swift */,
+				C56CB32F1A1609430009473C /* ListItem.swift */,
+				C56CB30E1A1605550009473C /* ListViewController.swift */,
+				C54735F91A162EAC004D7605 /* ListItemsViewController.swift */,
+				C54736031A1633BF004D7605 /* CheckBoxCell.swift */,
+				C54736011A16323A004D7605 /* CheckBox.swift */,
+				C54736071A1635E8004D7605 /* CheckBoxLayer.swift */,
+				C56CB3131A1605550009473C /* Images.xcassets */,
+				C56CB3151A1605550009473C /* LaunchScreen.xib */,
+				C56CB30A1A1605550009473C /* Supporting Files */,
+			);
+			path = ListerSwift;
+			sourceTree = "<group>";
+		};
+		C56CB30A1A1605550009473C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C56CB30B1A1605550009473C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C56CB31F1A1605550009473C /* ListerSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				C56CB3221A1605550009473C /* ListerSwiftTests.swift */,
+				C56CB3201A1605550009473C /* Supporting Files */,
+			);
+			path = ListerSwiftTests;
+			sourceTree = "<group>";
+		};
+		C56CB3201A1605550009473C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C56CB3211A1605550009473C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C56CB3061A1605550009473C /* ListerSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C56CB3261A1605550009473C /* Build configuration list for PBXNativeTarget "ListerSwift" */;
+			buildPhases = (
+				C56CB3031A1605550009473C /* Sources */,
+				C56CB3041A1605550009473C /* Frameworks */,
+				C56CB3051A1605550009473C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ListerSwift;
+			productName = ListerSwift;
+			productReference = C56CB3071A1605550009473C /* ListerSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C56CB31B1A1605550009473C /* ListerSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C56CB3291A1605550009473C /* Build configuration list for PBXNativeTarget "ListerSwiftTests" */;
+			buildPhases = (
+				C56CB3181A1605550009473C /* Sources */,
+				C56CB3191A1605550009473C /* Frameworks */,
+				C56CB31A1A1605550009473C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C56CB31E1A1605550009473C /* PBXTargetDependency */,
+			);
+			name = ListerSwiftTests;
+			productName = ListerSwiftTests;
+			productReference = C56CB31C1A1605550009473C /* ListerSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C56CB2FF1A1605550009473C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Young Hoo Kim";
+				TargetAttributes = {
+					C56CB3061A1605550009473C = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					C56CB31B1A1605550009473C = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = C56CB3061A1605550009473C;
+					};
+				};
+			};
+			buildConfigurationList = C56CB3021A1605550009473C /* Build configuration list for PBXProject "ListerSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C56CB2FE1A1605550009473C;
+			productRefGroup = C56CB3081A1605550009473C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C56CB3061A1605550009473C /* ListerSwift */,
+				C56CB31B1A1605550009473C /* ListerSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C56CB3051A1605550009473C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56CB3171A1605550009473C /* LaunchScreen.xib in Resources */,
+				C56CB3141A1605550009473C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56CB31A1A1605550009473C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C56CB3031A1605550009473C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C54736021A16323A004D7605 /* CheckBox.swift in Sources */,
+				C56CB3311A1609430009473C /* ListItem.swift in Sources */,
+				C54736081A1635E8004D7605 /* CheckBoxLayer.swift in Sources */,
+				C54735FA1A162EAC004D7605 /* ListItemsViewController.swift in Sources */,
+				C54736041A1633BF004D7605 /* CheckBoxCell.swift in Sources */,
+				C56CB30F1A1605550009473C /* ListViewController.swift in Sources */,
+				C56CB30D1A1605550009473C /* AppDelegate.swift in Sources */,
+				C56CB3301A1609430009473C /* List.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56CB3181A1605550009473C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56CB3231A1605550009473C /* ListerSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C56CB31E1A1605550009473C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C56CB3061A1605550009473C /* ListerSwift */;
+			targetProxy = C56CB31D1A1605550009473C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C56CB3151A1605550009473C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C56CB3161A1605550009473C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C56CB3241A1605550009473C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C56CB3251A1605550009473C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C56CB3271A1605550009473C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ListerSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C56CB3281A1605550009473C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ListerSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C56CB32A1A1605550009473C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ListerSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ListerSwift.app/ListerSwift";
+			};
+			name = Debug;
+		};
+		C56CB32B1A1605550009473C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ListerSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ListerSwift.app/ListerSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C56CB3021A1605550009473C /* Build configuration list for PBXProject "ListerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C56CB3241A1605550009473C /* Debug */,
+				C56CB3251A1605550009473C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C56CB3261A1605550009473C /* Build configuration list for PBXNativeTarget "ListerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C56CB3271A1605550009473C /* Debug */,
+				C56CB3281A1605550009473C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C56CB3291A1605550009473C /* Build configuration list for PBXNativeTarget "ListerSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C56CB32A1A1605550009473C /* Debug */,
+				C56CB32B1A1605550009473C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C56CB2FF1A1605550009473C /* Project object */;
+}
