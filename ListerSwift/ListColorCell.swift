@@ -30,7 +30,11 @@ class ListColorCell: UITableViewCell {
         
         self.setNeedsUpdateConstraints()
     }
-    
+
+//    required init(coder aDecoder: NSCoder) {
+//        super.init(coder: aDecoder)
+//    }
+//    
     override func updateConstraints() {
         super.updateConstraints()
         

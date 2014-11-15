@@ -4,10 +4,12 @@ import UIKit
 class List {
     var color: UIColor
     var name: String
+    var category: String
     var items: [ListItem]
     
-    init(name: String, color: UIColor, items: [ListItem]) {
+    init(name: String, category:String, color: UIColor, items: [ListItem]) {
         self.name = name
+        self.category = category
         self.color = color
         self.items = items
     }
