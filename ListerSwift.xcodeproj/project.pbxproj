@@ -18,6 +18,7 @@
 		C56CB3231A1605550009473C /* ListerSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56CB3221A1605550009473C /* ListerSwiftTests.swift */; };
 		C56CB3301A1609430009473C /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56CB32E1A1609430009473C /* List.swift */; };
 		C56CB3311A1609430009473C /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56CB32F1A1609430009473C /* ListItem.swift */; };
+		C5F77AD71A17370D00C54F28 /* ListColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F77AD61A17370D00C54F28 /* ListColorCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		C56CB3221A1605550009473C /* ListerSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListerSwiftTests.swift; sourceTree = "<group>"; };
 		C56CB32E1A1609430009473C /* List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
 		C56CB32F1A1609430009473C /* ListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		C5F77AD61A17370D00C54F28 /* ListColorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListColorCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				C56CB32E1A1609430009473C /* List.swift */,
 				C56CB32F1A1609430009473C /* ListItem.swift */,
 				C56CB30E1A1605550009473C /* ListViewController.swift */,
+				C5F77AD61A17370D00C54F28 /* ListColorCell.swift */,
 				C54735F91A162EAC004D7605 /* ListItemsViewController.swift */,
 				C54736031A1633BF004D7605 /* CheckBoxCell.swift */,
 				C54736011A16323A004D7605 /* CheckBox.swift */,
@@ -232,6 +235,7 @@
 				C54735FA1A162EAC004D7605 /* ListItemsViewController.swift in Sources */,
 				C54736041A1633BF004D7605 /* CheckBoxCell.swift in Sources */,
 				C56CB30F1A1605550009473C /* ListViewController.swift in Sources */,
+				C5F77AD71A17370D00C54F28 /* ListColorCell.swift in Sources */,
 				C56CB30D1A1605550009473C /* AppDelegate.swift in Sources */,
 				C56CB3301A1609430009473C /* List.swift in Sources */,
 			);

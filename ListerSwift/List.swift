@@ -12,6 +12,37 @@ class List {
         self.items = items
     }
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     func toggleItem(index:Int) -> (fromIndex: Int, toIndex: Int) {
         let listItem = items[index]
         listItem.isComplete = !listItem.isComplete

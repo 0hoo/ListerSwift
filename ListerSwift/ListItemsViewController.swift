@@ -26,6 +26,11 @@ class ListItemsViewController: UITableViewController {
     // MARK: - Action
     
     func checkBoxTapped(sender:CheckBox) {
+        /*if let indexPath = indexPathForView(sender) {
+            list.items[indexPath.row].isComplete = !list.items[indexPath.row].isComplete
+            tableView.reloadData()
+        }*/
+        
         if let indexPath = indexPathForView(sender) {
             
             let (fromIndex, toIndex) = list.toggleItem(indexPath.row)

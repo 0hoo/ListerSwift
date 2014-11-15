@@ -38,13 +38,13 @@ class ListViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        var cell:UITableViewCell! = tableView.dequeueReusableCellWithIdentifier("Cell") as? UITableViewCell
+        var cell:ListColorCell! = tableView.dequeueReusableCellWithIdentifier("Cell") as? ListColorCell
         if (cell == nil) {
-            cell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "Cell")
+            cell = ListColorCell(style: UITableViewCellStyle.Default, reuseIdentifier: "Cell")
         }
         
-        cell.textLabel.text = lists[indexPath.row].name
-        //cell.configure(lists[indexPath.row])
+        //cell.textLabel.text = lists[indexPath.row].name
+        cell.configure(lists[indexPath.row])
         
         return cell
     }
